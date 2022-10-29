@@ -9,7 +9,7 @@
 ;    number implies its truth for the successor of that number, then the statement is true for every
 ;    natural number.
 
-; Church numerials are kind of the abstraction of the nature numbers. Thay always take two parameters,
+; Church numerials are kind of the abstraction of the nature numbers. They always take two parameters,
 ; @f and @x. @f represents an procedure to get the successor of an entity (i.e. @f: n -> successor n),
 ; and @x represents an entity, "zero". Church numerials don't represent any concrete meanings, They
 ; are a set of procedures to perform "successor" operation and "zero". The \n-th numeric is to perform 
